@@ -56,9 +56,9 @@ run().catch(console.dir);
 
 
 
-// app.get('/', (req,res)=>{
-//     res.send('Runnig Genius server');
-// });
+app.get('/', (req,res)=>{
+    res.send('Runnig Genius server');
+});
 
 app.listen(port, ()=>{
     console.log('Running genius Server On port:', port);
